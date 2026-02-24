@@ -6,6 +6,7 @@ requires = [
 ]
 build-backend = "setuptools.build_meta"
 
+
 [project]
 name = "geometric-spectroscopy"
 version = "0.1.0"
@@ -28,14 +29,14 @@ keywords = [
   "geometric reconstruction",
 ]
 
-# PEP 639 / SPDX-style. Для проприетарной лицензии — LicenseRef-*
+# SPDX / PEP 639 style. Для закрытой/своей лицензии — LicenseRef-*
 license = "LicenseRef-Proprietary"
 
-# Должны реально существовать в репозитории
+# ВАЖНО: указываем реально существующие файлы.
+# LICENSE — лицензия на код; MANUSCRIPT_LICENSE.txt — лицензия на статью/манускрипт.
 license-files = [
   "LICENSE",
   "MANUSCRIPT_LICENSE.txt",
-  "paper/LICENSE-CC-BY-NC-4.0.txt",
 ]
 
 dependencies = [
@@ -67,10 +68,11 @@ gs-all-metrics = "geometric_spectroscopy.cli_all_metrics:main"
 
 [project.optional-dependencies]
 dev = [
-  "pytest",
+  "pytest>=7",
   "build",
   "twine",
 ]
+
 
 [tool.setuptools]
 include-package-data = true
@@ -81,6 +83,7 @@ include-package-data = true
 [tool.setuptools.packages.find]
 where = ["src"]
 exclude = ["tests*", "examples*", "tools*", "paper*", "workflows*"]
+
 
 [tool.pytest.ini_options]
 minversion = "7.0"
