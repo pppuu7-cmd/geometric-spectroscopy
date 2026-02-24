@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test-and-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install package (editable)
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e .
+          python -m pip install pytest
+
+      - name: Run tests
+        run: |
+          pytest -q
+
+      - name: Smoke: CLI demo (fast)
+        run: |
+          gs-demo --model hayward --mc 0 --Lmax 3
+
+      - name: Smoke: stability monitor
+        run: |
+          gs-stability-monitor
+
+      - name: Smoke: report bundle (strict)
+        run: |
+          gs-report-bundle --strict

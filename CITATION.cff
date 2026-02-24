@@ -1,0 +1,46 @@
+# CITATION.cff
+cff-version: 1.2.0
+title: "Geometric Spectroscopy"
+message: "If you use this software or the associated theory in academic work, please cite it as follows."
+type: software
+
+authors:
+  - family-names: "Buyanov"
+    given-names: "Aleksey"
+    orcid: "https://orcid.org/0009-0001-2621-9305"
+    email: "pppuuu7@gmail.com"
+
+repository-code: "https://github.com/pppuu7-cmd/geometric-spectroscopy"
+url: "https://github.com/pppuu7-cmd/geometric-spectroscopy"
+
+license: "Dual License (Academic Free / Commercial Paid)"
+version: "0.1.0"
+date-released: 2026-02-24
+
+abstract: >
+  Geometric Spectroscopy is a structured research framework for extracting
+  geometric and near-horizon structural information from quasinormal mode spectra.
+  The project provides numerically controlled inversion methods, stability
+  diagnostics, condition-number analysis, and structured report generation
+  for theoretical and mathematical physics research.
+
+keywords:
+  - geometric spectroscopy
+  - quasinormal modes
+  - spectral inversion
+  - stability diagnostics
+  - black hole physics
+  - mathematical physics
+  - inverse problems
+  - geometric reconstruction
+
+preferred-citation:
+  type: software
+  title: "Geometric Spectroscopy"
+  authors:
+    - family-names: "Buyanov"
+      given-names: "Aleksey"
+      orcid: "https://orcid.org/0009-0001-2621-9305"
+  version: "0.1.0"
+  date-released: 2026-02-24
+  repository-code: "https://github.com/pppuu7-cmd/geometric-spectroscopy"
