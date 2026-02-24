@@ -1,74 +1,123 @@
-# ==============================
-# Python bytecode
-# ==============================
+# =========================================================
+# Python / Packaging (build artifacts)
+# =========================================================
 __pycache__/
 *.py[cod]
 *$py.class
 
-# ==============================
-# C extensions
-# ==============================
-*.so
-*.pyd
-*.dll
-
-# ==============================
-# Distribution / packaging
-# ==============================
-build/
+# Wheels / sdists / build dirs
 dist/
+build/
+*.egg
 *.egg-info/
 .eggs/
 pip-wheel-metadata/
-wheelhouse/
+*.whl
+*.tar.gz
 
-# ==============================
+# PEP 517 / build backends temp
+*.manifest
+*.spec
+
+# Local editable installs / metadata
+**/*.egg-info/
+**/*.dist-info/
+
+# Temporary folders produced by sdist (projectname-version/)
+geometric_spectroscopy-*/
+# (если имя проекта поменяется — можно расширить правилом ниже)
+# *-*/
+
+# =========================================================
 # Virtual environments
-# ==============================
+# =========================================================
 .venv/
 venv/
 ENV/
 env/
+.ENV/
+.conda/
+conda-env/
+pipenv/
+poetry.lock
+Pipfile.lock
 
-# ==============================
-# Test / tooling caches
-# ==============================
+# =========================================================
+# Testing / Coverage / QA tools
+# =========================================================
 .pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.cache/
+.tox/
+.nox/
 .coverage
+.coverage.*
 coverage.xml
 htmlcov/
+nosetests.xml
+test-results.xml
+*.cover
+*.py,cover
+.hypothesis/
 
-# ==============================
-# Jupyter
-# ==============================
+# Type checkers / linters / formatters
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.cache/
+.pyright/
+.dmypy.json
+
+# =========================================================
+# Jupyter / Notebooks
+# =========================================================
 .ipynb_checkpoints/
+*.nbconvert.ipynb
 
-# ==============================
-# IDEs
-# ==============================
+# =========================================================
+# Editors / IDEs
+# =========================================================
 .vscode/
 .idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# =========================================================
+# OS / Windows / macOS / Linux
+# =========================================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.Trash-*/
+
+# =========================================================
+# Logs / temp / misc
+# =========================================================
+*.log
+*.tmp
+*.temp
+*.bak
 *.swp
 *.swo
 
-# ==============================
-# OS files
-# ==============================
-.DS_Store
-Thumbs.db
-
-# ==============================
-# Logs
-# ==============================
-*.log
-
-# ==============================
-# Project outputs
-# ==============================
-results/dist/
-build/
-*.egg-info/
-*.egg-info/
+# =========================================================
+# Project-specific (optional)
+# =========================================================
+# If you generate reports/bundles locally:
+# reports/
+# output/
+# data/
