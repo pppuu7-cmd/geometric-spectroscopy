@@ -68,4 +68,7 @@ Thumbs.db
 # ==============================
 # Project outputs
 # ==============================
-results/
+results/dist/
+build/
+*.egg-info/
+*.egg-info/
