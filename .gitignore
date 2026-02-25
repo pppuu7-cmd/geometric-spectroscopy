@@ -1,32 +1,31 @@
 # =========================================================
-# Python / Packaging (build artifacts)
+# Python bytecode / cache
 # =========================================================
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Wheels / sdists / build dirs
-dist/
+# =========================================================
+# Build / Packaging artifacts
+# =========================================================
 build/
+dist/
 *.egg
 *.egg-info/
 .eggs/
 pip-wheel-metadata/
 *.whl
 *.tar.gz
-
-# PEP 517 / build backends temp
 *.manifest
 *.spec
 
-# Local editable installs / metadata
+# PEP 517 / editable installs
 **/*.egg-info/
 **/*.dist-info/
 
-# Temporary folders produced by sdist (projectname-version/)
+# Temporary folders from sdist (projectname-version/)
 geometric_spectroscopy-*/
-# (если имя проекта поменяется — можно расширить правилом ниже)
-# *-*/
+*-*/
 
 # =========================================================
 # Virtual environments
@@ -38,12 +37,13 @@ env/
 .ENV/
 .conda/
 conda-env/
-pipenv/
+
+# Pip / Poetry
 poetry.lock
 Pipfile.lock
 
 # =========================================================
-# Testing / Coverage / QA tools
+# Testing / Coverage
 # =========================================================
 .pytest_cache/
 .tox/
@@ -58,14 +58,14 @@ test-results.xml
 *.py,cover
 .hypothesis/
 
-# Type checkers / linters / formatters
+# Type checkers / linters
 .mypy_cache/
 .pyre/
 .pytype/
 .ruff_cache/
-.cache/
 .pyright/
 .dmypy.json
+.cache/
 
 # =========================================================
 # Jupyter / Notebooks
@@ -84,8 +84,9 @@ test-results.xml
 *.code-workspace
 
 # =========================================================
-# OS / Windows / macOS / Linux
+# OS-specific files
 # =========================================================
+
 # Windows
 Thumbs.db
 Thumbs.db:encryptable
@@ -105,7 +106,7 @@ $RECYCLE.BIN/
 .Trash-*/
 
 # =========================================================
-# Logs / temp / misc
+# Logs / temporary files
 # =========================================================
 *.log
 *.tmp
@@ -115,9 +116,19 @@ $RECYCLE.BIN/
 *.swo
 
 # =========================================================
-# Project-specific (optional)
+# Project-specific generated outputs
 # =========================================================
-# If you generate reports/bundles locally:
-# reports/
-# output/
+
+# Generated numerical artifacts
+artifacts/
+results/
+reports/
+output/
+
+# Monte Carlo / exports / bundles
+*.csv
+*.json
+*.npz
+
+# Uncomment if you store large datasets locally:
 # data/
