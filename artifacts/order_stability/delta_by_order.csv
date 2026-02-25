@@ -1,0 +1,13 @@
+case,pade,order,n,delta_abs
+schwarzschild_via_hayward,0,6,0,0.2216130014523611
+schwarzschild_via_hayward,0,6,1,1.0046550684744326
+schwarzschild_via_hayward,0,6,2,3.1378636605991943
+schwarzschild_via_hayward,0,6,3,7.173829982991012
+schwarzschild_via_hayward,0,6,4,13.441111045355113
+schwarzschild_via_hayward,0,6,5,22.084883700595917
+schwarzschild_via_hayward,1,6,0,0.024228569925541822
+schwarzschild_via_hayward,1,6,1,0.08395095081591418
+schwarzschild_via_hayward,1,6,2,0.18979212785330635
+schwarzschild_via_hayward,1,6,3,0.3392824622030075
+schwarzschild_via_hayward,1,6,4,0.542551435905476
+schwarzschild_via_hayward,1,6,5,0.6506546958216511
