@@ -1,35 +1,41 @@
 BUYANOV RESEARCH SOFTWARE DUAL LICENSE
 Academic & Non-Profit Free / Commercial License Required
-Version 1.0 - 22 September 2026
+Version 1.1 - 22 September 2026
 
 Copyright (c) 2026 Aleksey Buyanov
 ORCID: https://orcid.org/0009-0001-2621-9305
 Email: pppuuu7@gmail.com
 
 ======================================================================
-0. NOTICE, SCOPE, AND LICENSE STATUS
+0. NOTICE, SCOPE, STATUS, AND HISTORICAL VERSIONS
 ======================================================================
 
 This is a custom source-available license. It is not an OSI-approved
-open-source license because Commercial Use is restricted and requires
-a separate commercial license.
+open-source license because Commercial Use is restricted and requires a
+separate written commercial license.
 
-This License applies to the copyrightable source code, scripts,
+This License applies to copyrightable source code, object code, scripts,
 documentation, configuration, tests, benchmark definitions, data files
-to the extent copyrightable, and other copyrightable materials in the
-repository or distribution in which this License is included
-(collectively, the "Covered Materials"), but only to the extent that
-such materials are owned or controlled by Aleksey Buyanov
+to the extent copyrightable, model implementations, research software,
+and other copyrightable materials in the repository or distribution in
+which this License is included (collectively, the "Covered Materials"),
+but only to the extent owned or controlled by Aleksey Buyanov
 (the "Licensor").
 
-Materials that identify a different license, third-party materials,
-dependencies, external datasets, copied standards, quoted publications,
-and other materials not owned or controlled by the Licensor are not
-relicensed by this License and remain subject to their applicable terms.
+Third-party materials and materials identifying another license are
+excluded as provided in Section 7.
 
-This License applies to versions of the Covered Materials released with
-this License. Rights validly granted for earlier versions under an earlier
-license are not revoked or retroactively restricted by this License.
+The Licensor makes this License available as the current license offer
+for all historical and current versions of Covered Materials owned or
+controlled by the Licensor, including versions created before the date
+of this License.
+
+However, changing a license notice cannot retroactively revoke rights
+that were already validly granted to a particular recipient under a
+different license. If a recipient can establish that a specific copy or
+version was lawfully received under an earlier license, that earlier
+grant remains governed by its own terms to the extent required by
+applicable law. Nothing in this License enlarges such earlier rights.
 
 By exercising any permission granted by this License, you accept and
 agree to its terms.
@@ -54,11 +60,11 @@ charitable donations, public research funding, and reasonable
 cost-recovery by a qualifying non-profit institution do not, by
 themselves, make a use Commercial Use.
 
-"Commercial Use" means any use of the Covered Materials by, for, or on
+"Commercial Use" means any use of Covered Materials by, for, or on
 behalf of a for-profit entity, or any use intended to support revenue
-generation, commercial products or services, competitive commercial
-advantage, internal commercial research and development, or planned
-commercialization.
+generation, monetization, commercial products or services, competitive
+commercial advantage, internal commercial research and development, or
+planned commercialization.
 
 Commercial Use includes, without limitation:
 
@@ -71,9 +77,25 @@ Commercial Use includes, without limitation:
 - work funded or commissioned by a for-profit entity for its commercial
   benefit;
 - venture-backed, investor-funded, or otherwise commercially financed
-  development intended for commercialization; and
+  development intended for commercialization;
 - commercial AI or machine-learning training, fine-tuning, evaluation,
-  or product development using the Covered Materials.
+  or product development using Covered Materials; and
+- commercial use of a modified, improved, extended, translated, ported,
+  adapted, or derivative version of Covered Materials.
+
+"Derivative Version" means a modification, adaptation, extension,
+translation, port, integration, or other derivative work that contains,
+incorporates, modifies, or is derived from copyrightable Covered
+Materials.
+
+"Product Distribution Right" means an express right to reproduce,
+embed, distribute, sell, supply, or otherwise provide Covered Materials
+or a Derivative Version as part of, or for use with, a product or
+service supplied to third parties.
+
+"Sublicense" means any grant by a licensee to another person or entity
+of a right to exercise any right in Covered Materials that originates
+from the Licensor.
 
 Mere reading, independent scientific discussion, or citation of publicly
 available research descriptions, where copyright permission is not
@@ -85,21 +107,21 @@ otherwise required, is not restricted by this License.
 
 Subject to full compliance with this License, the Licensor grants each
 qualifying Academic & Non-Profit user a non-exclusive, worldwide,
-royalty-free, non-sublicensable license to:
+royalty-free, non-transferable, non-sublicensable license to:
 
-- use and execute the Covered Materials;
-- reproduce the Covered Materials;
-- modify the Covered Materials and create derivative works; and
+- use and execute Covered Materials;
+- reproduce Covered Materials;
+- modify Covered Materials and create Derivative Versions; and
 - redistribute original or modified Covered Materials,
 
 solely for Academic & Non-Profit Use.
 
-The license is non-sublicensable. However, permitted redistribution is
-allowed under Section 3, and each downstream recipient receives any
-license rights directly from the Licensor under this same License,
-subject to that recipient's own compliance with its terms.
+The license is non-sublicensable. Permitted redistribution under this
+License is not a sublicense: each downstream recipient receives any
+applicable rights directly from the Licensor under this License and is
+independently responsible for compliance.
 
-No rights are granted for Commercial Use under this Section.
+No Commercial Use rights are granted under this Section.
 
 ======================================================================
 3. CONDITIONS FOR ACADEMIC & NON-PROFIT USE
@@ -110,36 +132,35 @@ All permissions under Section 2 are conditioned on the following:
 1. Attribution.
    The copyright notice, author name, ORCID, and attribution to the
    relevant project must be preserved in all copies or substantial
-   portions of the Covered Materials.
+   portions of Covered Materials.
 
 2. License Notice.
    A complete copy of this License must accompany every redistribution
-   of the Covered Materials or a substantial portion of them.
+   of Covered Materials or a substantial portion of them.
 
 3. Modification Notice.
-   Modified files or derivative works must clearly state that they were
-   modified and, where reasonably practicable, identify the date and
-   nature of the modification.
+   Modified files or Derivative Versions must clearly state that they
+   were modified and, where reasonably practicable, identify the date
+   and nature of the modification.
 
 4. Same-License Redistribution.
-   Any redistribution of the Covered Materials, including modified or
-   derivative versions, must be made only under this License and may not
-   impose additional terms that restrict the rights granted for
-   Academic & Non-Profit Use.
+   Redistribution of Covered Materials or a Derivative Version must be
+   made only under this License and may not impose additional terms that
+   restrict the rights granted for Academic & Non-Profit Use.
 
 5. Source Availability.
-   If Covered Materials are redistributed in executable, binary, compiled,
-   or otherwise non-source form, the corresponding source form of the
-   Covered Materials and modifications must also be provided, or made
+   If Covered Materials are redistributed in executable, binary,
+   compiled, or otherwise non-source form, the corresponding source form
+   of Covered Materials and modifications must also be provided, or made
    available without charge other than reasonable reproduction costs,
    under this License.
 
 6. Scholarly Attribution.
-   If the Covered Materials materially contribute to published academic
-   or scientific work, the publication must provide reasonable scholarly
+   If Covered Materials materially contribute to published academic or
+   scientific work, the publication must provide reasonable scholarly
    attribution to Aleksey Buyanov and the relevant project. Where a
-   CITATION.cff or other citation instruction is supplied with the
-   project, it should be used where reasonably practicable.
+   CITATION.cff or other citation instruction is supplied, it should be
+   used where reasonably practicable.
 
 7. No Endorsement.
    The Licensor's name, ORCID, project names, trademarks, service marks,
@@ -148,83 +169,170 @@ All permissions under Section 2 are conditioned on the following:
    truthful attribution.
 
 ======================================================================
-4. COMMERCIAL USE AND COMMERCIAL LICENSING
+4. CHANGE FROM ACADEMIC USE TO COMMERCIAL USE
 ======================================================================
 
-No Commercial Use rights are granted under Sections 2 or 3.
+Academic or non-profit development does not create a right to later use
+Covered Materials or a Derivative Version commercially.
+
+A person or organization that receives, studies, modifies, improves,
+extends, validates, benchmarks, trains with, or otherwise develops
+Covered Materials under the Academic & Non-Profit License must obtain a
+separate written Commercial License Agreement from the Licensor BEFORE
+any Commercial Use of Covered Materials or a Derivative Version begins.
+
+Ownership by a contributor of copyright in that contributor's own
+original additions does not grant that contributor any commercial right
+in the Licensor's Covered Materials, nor any commercial right to exploit
+a combined Derivative Version to the extent such exploitation requires
+rights in the Licensor's Covered Materials.
+
+A contributor may separately use independently created material that
+does not contain, reproduce, adapt, or otherwise require rights in
+Covered Materials, subject to applicable law and third-party rights.
+
+======================================================================
+5. COMMERCIAL USE AND DEFAULT COMMERCIAL RESTRICTIONS
+======================================================================
+
+No Commercial Use right is granted by this public License.
 
 Any Commercial Use requires a separate written Commercial License
-Agreement with the Licensor before the Commercial Use begins.
+Agreement executed or otherwise expressly accepted in writing by the
+Licensor before the Commercial Use begins.
 
-A commercial license is paid unless the Licensor expressly agrees in
-writing to waive or modify the applicable fee.
+Payment of a fee, purchase order, invoice, subscription, access fee,
+support fee, consulting fee, or other payment DOES NOT by itself:
 
-A separate Commercial License Agreement may grant different or broader
-rights, including proprietary use, closed-source distribution, SaaS or
-hosted deployment, internal commercial R&D, sublicensing, patent rights,
-support, warranties, indemnities, or other negotiated terms.
+- transfer ownership of Covered Materials or any intellectual-property
+  right;
+- transfer or assign the Licensor's exclusive rights;
+- grant an exclusive license;
+- grant a Product Distribution Right;
+- grant a right to sell, resell, rent, lease, lend, white-label, OEM,
+  bundle, embed, or redistribute Covered Materials;
+- grant a right to distribute a Derivative Version;
+- grant a right to sublicense Covered Materials;
+- grant a right to transfer or assign the commercial license;
+- grant rights to affiliates, parent companies, subsidiaries,
+  contractors, customers, end users, distributors, resellers, or other
+  third parties; or
+- grant any right not expressly stated in the written Commercial
+  License Agreement.
 
-If there is reasonable uncertainty whether a proposed use is Academic &
-Non-Profit Use or Commercial Use, the proposed use must be treated as
-Commercial Use unless the Licensor confirms otherwise in writing.
+Unless a written Commercial License Agreement expressly states otherwise,
+a commercial license is presumed to be:
+
+- non-exclusive;
+- non-transferable;
+- non-assignable;
+- non-sublicensable;
+- limited to the named licensee;
+- limited to the specific purpose, project, product, field, deployment,
+  territory, term, users, or other scope stated in that agreement; and
+- without any Product Distribution Right.
+
+A licensee may not evade these restrictions by acting through an
+affiliate, contractor, distributor, reseller, customer, agent, special
+purpose entity, or other intermediary.
+
+======================================================================
+6. PRODUCTS, OEM USE, EMBEDDING, RESELLING, AND SUBLICENSING
+======================================================================
+
+A commercial license for internal use, research, evaluation, development,
+deployment, or operation does NOT authorize distribution of Covered
+Materials or a Derivative Version to customers or other third parties.
+
+Selling or supplying a finished product or service that contains,
+embeds, bundles, incorporates, distributes, or provides third-party
+access to Covered Materials or a Derivative Version requires an express
+Product Distribution Right in the written Commercial License Agreement.
+
+A Product Distribution Right must be expressly granted. It is not
+implied by:
+
+- payment of a commercial license fee;
+- permission for internal Commercial Use;
+- permission to modify Covered Materials;
+- permission to create a Derivative Version;
+- permission to deploy Covered Materials on the licensee's own systems;
+- permission to provide a hosted service; or
+- permission to use Covered Materials in product development.
+
+No commercial licensee may sell, resell, sublicense, transfer, assign,
+rent, lease, lend, white-label, OEM-license, or otherwise make the
+Licensor's license itself available to another person or entity unless
+the written Commercial License Agreement expressly grants that specific
+right.
+
+If a Product Distribution Right is granted, the Commercial License
+Agreement should define, as applicable, the permitted product or service,
+distribution form, source-code or object-code form, number of units or
+users, territory, term, field of use, end-user rights, required notices,
+royalties or fees, reporting, audit rights, and whether any sublicensing
+is permitted.
+
+End customers receive no independent right to reproduce, modify,
+redistribute, sublicense, extract, reuse, or separately commercialize
+Covered Materials merely because they purchased a product or service
+from a commercial licensee, unless the Licensor expressly grants such
+rights in writing.
 
 Commercial licensing inquiries:
 pppuuu7@gmail.com
 
 ======================================================================
-5. INTELLECTUAL PROPERTY, SCIENTIFIC CONTENT, AND PATENTS
+7. INTELLECTUAL PROPERTY, SCIENTIFIC CONTENT, PATENTS, AND THIRD PARTIES
 ======================================================================
 
 The Licensor retains all copyright and other intellectual-property rights
-in the Covered Materials to the extent such rights are owned or controlled
-by the Licensor.
+in Covered Materials to the extent owned or controlled by the Licensor.
 
-Nothing in this License is intended to claim exclusive copyright rights in
-facts, discoveries, scientific results, ideas, theories, principles,
-algorithms, mathematical formulas, mathematical relationships, or methods
-to the extent that such subject matter is not protected by applicable law.
-Patent rights, if any, are addressed separately below.
+Nothing in this License claims copyright ownership over facts,
+discoveries, scientific results, ideas, theories, principles, algorithms,
+mathematical formulas, mathematical relationships, methods, processes,
+systems, or other subject matter that applicable law excludes from
+copyright protection. Rights in particular source code, object code,
+documentation, expressive text, graphics, data selection or arrangement,
+and other copyrightable expression remain subject to this License.
 
-Subject to compliance with Sections 1 through 3, the Licensor grants
+Patent rights, if any, are separate from copyright.
+
+Subject to compliance with Sections 1 through 4, the Licensor grants
 qualifying Academic & Non-Profit users a non-exclusive, worldwide,
-royalty-free patent license under patent claims owned or controlled by the
-Licensor that are necessarily infringed solely by the authorized Academic
-& Non-Profit Use of the Covered Materials.
+royalty-free patent license under patent claims owned or controlled by
+the Licensor that are necessarily infringed solely by authorized
+Academic & Non-Profit Use of Covered Materials.
 
 No patent license is granted for Commercial Use. Any Commercial Use that
-requires patent rights must be addressed in a separate written Commercial
-License Agreement.
+requires patent rights must be expressly addressed in a separate written
+Commercial License Agreement.
 
 If a recipient, or an entity controlling, controlled by, or under common
 control with that recipient, initiates patent litigation, including a
-cross-claim or counterclaim, alleging that the Covered Materials or a
+cross-claim or counterclaim, alleging that Covered Materials or a
 contribution incorporated into them infringes a patent, all patent rights
 granted to that recipient under this License terminate immediately.
+
+This License grants rights only in material that the Licensor has
+authority to license.
+
+Third-party code, libraries, datasets, publications, standards, models,
+assets, or other materials remain governed by their own licenses or legal
+terms, even if included in the same repository or distribution.
+
+Contributors other than the Licensor retain rights they own unless those
+rights have been assigned or separately licensed. Where this License
+conflicts with a valid license notice specifically applicable to a
+third-party file or component, the specific third-party license controls
+for that file or component.
 
 Except for truthful attribution, no trademark, service-mark, trade-name,
 publicity, or endorsement rights are granted.
 
 ======================================================================
-6. THIRD-PARTY MATERIALS AND CONTRIBUTIONS
-======================================================================
-
-This License grants rights only in material that the Licensor has authority
-to license.
-
-Third-party code, libraries, datasets, publications, standards, models,
-assets, or other materials remain governed by their own licenses or legal
-terms, even if they are included in the same repository or distribution.
-
-Contributors other than the Licensor retain any rights they own unless
-those rights have been assigned or separately licensed. Nothing in this
-License changes the ownership of third-party contributions.
-
-Where this License conflicts with a valid license notice that specifically
-applies to a third-party file or component, the specific third-party
-license controls for that file or component.
-
-======================================================================
-7. TERMINATION AND REINSTATEMENT
+8. TERMINATION AND REINSTATEMENT
 ======================================================================
 
 Any material breach of this License automatically terminates the rights
@@ -233,25 +341,28 @@ granted to the breaching party under this License.
 The Licensor may, but is not obligated to, provide written notice
 describing an alleged breach.
 
-Except for intentional Commercial Use without a required commercial
-license, patent litigation described in Section 5, or a repeated material
-breach, rights terminated for a curable breach are automatically
-reinstated if the breach is fully cured within thirty (30) calendar days
-after the Licensor provides written notice of the breach.
+Except for intentional unauthorized Commercial Use, unauthorized
+resale, sublicensing, transfer, Product Distribution, patent litigation
+described in Section 7, or a repeated material breach, rights terminated
+for a curable breach are automatically reinstated if the breach is fully
+cured within thirty (30) calendar days after the Licensor provides
+written notice.
 
-Intentional unauthorized Commercial Use, patent-litigation termination,
-or repeated material breach may be reinstated only by the Licensor's
-express written consent.
+Intentional unauthorized Commercial Use, unauthorized resale,
+sublicensing, transfer, Product Distribution, patent-litigation
+termination, or repeated material breach may be reinstated only by the
+Licensor's express written consent.
 
-Reinstatement does not waive claims, remedies, fees, or damages arising
-from conduct that occurred while the License was violated or terminated.
+Reinstatement does not waive claims, remedies, fees, damages, or other
+rights arising from conduct that occurred while this License was
+violated or terminated.
 
 Upon termination, the breaching party must immediately cease all use,
-modification, and distribution that depends on rights granted by this
-License.
+modification, distribution, access, commercialization, and other conduct
+that depends on rights granted by this License.
 
 ======================================================================
-8. DISCLAIMER OF WARRANTY AND LIMITATION OF LIABILITY
+9. DISCLAIMER OF WARRANTY AND LIMITATION OF LIABILITY
 ======================================================================
 
 THE COVERED MATERIALS ARE PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT
@@ -259,16 +370,16 @@ WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION,
 WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
 ACCURACY, RELIABILITY, TITLE, AND NON-INFRINGEMENT.
 
-THE LICENSOR DOES NOT WARRANT THAT THE COVERED MATERIALS, RESEARCH
-RESULTS, CALCULATIONS, BENCHMARKS, MODELS, OR DOCUMENTATION ARE COMPLETE,
+THE LICENSOR DOES NOT WARRANT THAT COVERED MATERIALS, RESEARCH RESULTS,
+CALCULATIONS, BENCHMARKS, MODELS, OR DOCUMENTATION ARE COMPLETE,
 ERROR-FREE, SUITABLE FOR ANY PARTICULAR PURPOSE, OR SCIENTIFICALLY OR
 COMMERCIALLY VALID FOR A RECIPIENT'S INTENDED USE.
 
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
 LICENSOR BE LIABLE FOR ANY CLAIM, LOSS, DAMAGE, OR OTHER LIABILITY,
 WHETHER IN CONTRACT, TORT, STATUTE, OR OTHERWISE, ARISING FROM, OUT OF,
-OR IN CONNECTION WITH THE COVERED MATERIALS OR THEIR USE, MODIFICATION,
-DISTRIBUTION, OR RELIANCE.
+OR IN CONNECTION WITH COVERED MATERIALS OR THEIR USE, MODIFICATION,
+DISTRIBUTION, COMMERCIALIZATION, OR RELIANCE.
 
 THIS INCLUDES, WITHOUT LIMITATION, DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
 CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES; LOSS OF PROFITS, REVENUE,
@@ -280,7 +391,7 @@ that exclusion or limitation applies only to the maximum extent permitted
 by law.
 
 ======================================================================
-9. GOVERNING LAW AND JURISDICTION
+10. GOVERNING LAW AND JURISDICTION
 ======================================================================
 
 This License is governed by and construed in accordance with the laws of
@@ -294,7 +405,7 @@ A separate written Commercial License Agreement may specify a different
 governing law, forum, dispute-resolution procedure, or jurisdiction.
 
 ======================================================================
-10. MISCELLANEOUS
+11. MISCELLANEOUS
 ======================================================================
 
 Severability.
@@ -303,45 +414,47 @@ provision shall be enforced to the maximum extent permitted by law and
 the remaining provisions shall remain in effect.
 
 No Waiver.
-Failure or delay by the Licensor in enforcing any provision does not waive
-the Licensor's right to enforce that or any other provision later.
+Failure or delay by the Licensor in enforcing any provision does not
+waive the right to enforce that or any other provision later.
 
 No Implied Rights.
-No rights are granted by implication, estoppel, exhaustion, or otherwise
-except to the extent such rights cannot lawfully be excluded.
+No rights are granted by implication, estoppel, payment, course of
+dealing, or otherwise, except to the extent such rights cannot lawfully
+be excluded.
 
-Entire License.
-For Academic & Non-Profit Use, this License states the complete license
-terms granted by the Licensor for the Covered Materials, except where a
-separate written agreement expressly applies.
+No Transfer of Ownership.
+No license under this License or a Commercial License Agreement transfers
+ownership of the Licensor's intellectual property unless an express
+written assignment signed by the Licensor specifically states otherwise.
 
 Commercial Agreement Priority.
-For a party that has a valid written Commercial License Agreement with the
-Licensor, that agreement controls to the extent it conflicts with this
-License.
+For a party that has a valid written Commercial License Agreement with
+the Licensor, that agreement controls only to the extent it expressly
+grants rights different from or broader than this License.
 
 License Version.
-This is Version 1.0 dated 22 September 2026. A later version published by
-the Licensor does not automatically alter the license terms applicable to
-a copy already received under this version unless the recipient expressly
-accepts the later version or the applicable materials expressly authorize
-use under a later version.
+This is Version 1.1 dated 22 September 2026. A later license version does
+not automatically alter terms applicable to a copy already received
+under this version unless the recipient expressly accepts the later
+version or the applicable materials expressly authorize use under a
+later version.
 
 ======================================================================
 PLAIN-LANGUAGE SUMMARY - NOT PART OF THE LEGAL TERMS
 ======================================================================
 
-Academic, educational, public-research, and non-profit research use:
-FREE, subject to attribution, same-license redistribution, source
-availability, and the other conditions above.
+Academic and non-profit research use:
+FREE, subject to the conditions above.
 
-Commercial or for-profit use:
-A separate written paid commercial license is required unless the
-Licensor expressly agrees otherwise in writing.
+Academic improvements do not become commercially free:
+commercial use of Covered Materials or a Derivative Version requires a
+separate written Commercial License Agreement from Aleksey Buyanov.
 
-Earlier versions:
-Any rights already validly granted under an earlier license remain
-governed by that earlier license.
+Paying for a commercial license does NOT automatically permit:
+resale, sublicensing, transfer, OEM use, embedding in products,
+distribution to customers, or redistribution of modified versions.
+
+Those rights must be expressly granted in writing.
 
 Commercial licensing contact:
 pppuuu7@gmail.com
